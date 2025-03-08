@@ -41,7 +41,7 @@ export default function Navbar() {
           className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isOpen ? "block" : "hidden"}`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#860764] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#860764] dark:bg-gray-800 md:dark:bg-gray-900">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#860764] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:e  dark:bg-gray-800 md:dark:bg-gray-900">
             <li>
               <a href="/" className="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-2 md:dark:text-[#860764] md:hover:text-[#860764] md:hover:bg-white" aria-current="page">Home</a>
             </li>
@@ -49,10 +49,10 @@ export default function Navbar() {
               <a href="./about" className="block py-2 px-3 rounded-sm text-white md:hover:text-[#860764] md:hover:bg-white md:p-2 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">About</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 rounded-sm text-white md:hover:text-[#860764] md:hover:bg-white md:p-2 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">Services</a>
+              <a href="./services" className="block py-2 px-3 rounded-sm text-white md:hover:text-[#860764] md:hover:bg-white md:p-2 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">Services</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 rounded-sm text-white md:hover:text-[#860764] md:hover:bg-white md:p-2 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">Contact</a>
+              <a href="./contact" className="block py-2 px-3 rounded-sm text-white md:hover:text-[#860764] md:hover:bg-white md:p-2 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">Contact</a>
             </li>
           </ul>
         </div>
