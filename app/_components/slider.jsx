@@ -32,7 +32,7 @@ function Slider() {
       >
         <CarouselContent>
           <CarouselItem><img src="./p-1.png" alt="Slide 1" className="w-full h-auto rounded-lg" /></CarouselItem>
-          <CarouselItem><img src="./p-2.png" alt="Slide 2" className="w-full h-auto rounded-lg" /></CarouselItem>
+          {/* <CarouselItem><img src="./p-2.png" alt="Slide 2" className="w-full h-auto rounded-lg" /></CarouselItem> */}
           <CarouselItem><img src="./p-3.png" alt="Slide 3" className="w-full h-auto rounded-lg" /></CarouselItem>
           <CarouselItem><img src="./p-4.png" alt="Slide 4" className="w-full h-auto rounded-lg" /></CarouselItem>
           <CarouselItem><img src="./p-5.png" alt="Slide 5" className="w-full h-auto rounded-lg" /></CarouselItem>

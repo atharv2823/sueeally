@@ -3,11 +3,38 @@ import Slider from "./_components/slider";
 
 const LandingPage = () => {
   return (<>
-    <h1 className="text-center mt-56">Our Services </h1>
+
+    {/* Hero Section */}
+
+   <section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img className="object-cover object-center rounded" alt="hero" src="./truck.jpg" />
+    </div>
+    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#860764]">Safe. Reliable. On Time. 
+        <br className="hidden lg:inline-block" />Every Time.
+      </h1>
+      <p className="mb-8 leading-relaxed">"Reliable transport solutions delivering safety, speed, and efficiency. We move your world with care, precision, and on-time service." </p>
+      {/* <div className="flex justify-center">
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+      </div> */}
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <h1 className="text-center text-3xl text-white font-bold mt-[-80px] mb-5 bg-[#860764] py-2">Our Transporters </h1>
     <Slider/> 
 
-    <div>
-      <h1 className="text-center text-[#860764] text-3xl font-bold">Our Journy </h1>
+    {/* Our Journy */}
+
+    <div className="mt-8">
+      <h1 className="text-center text-white text-3xl font-bold bg-[#860764] py-2">Our Journy </h1>
 
      <section className="text-gray-600 mt-[-80px] lg:ml-44 md:ml-10">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
@@ -23,7 +50,7 @@ const LandingPage = () => {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">2021</h2>
+            <h2 className="font-medium title-font text-sm text-[#860764] mb-1 tracking-wider">2021</h2>
             <p className="leading-relaxed">We Start Our Journy </p>
           </div>
         </div>
@@ -37,7 +64,7 @@ const LandingPage = () => {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
+            <h2 className="font-medium title-font text-sm text-[#860764] mb-1 tracking-wider">STEP 2</h2>
             <p className="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
           </div>
         </div>
@@ -52,7 +79,7 @@ const LandingPage = () => {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
+            <h2 className="font-medium title-font text-sm text-[#860764] mb-1 tracking-wider">STEP 3</h2>
             <p className="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
           </div>
         </div>
@@ -67,7 +94,7 @@ const LandingPage = () => {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
+            <h2 className="font-medium title-font text-sm text-[#860764] mb-1 tracking-wider">STEP 4</h2>
             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
           </div>
         </div>
@@ -79,7 +106,7 @@ const LandingPage = () => {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
+            <h2 className="font-medium title-font text-sm text-[#860764] mb-1 tracking-wider">FINISH</h2>
             <p className="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
           </div>
         </div>
@@ -90,6 +117,44 @@ const LandingPage = () => {
 </section>
 
     </div>
+
+
+    {/* users */}
+
+    <section className="text-gray-600 body-font mt-[-150px] lg:ml-60 md:ml-20">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap">
+
+  <div className="lg:w-[400px] md:w-[100px] w-full rounded-lg overflow-hidden  md:ml-10">
+      <img className="object-cover object-center lg:w-full h-full md:w-1/2 " src="./delivery.jpeg" alt="stats" />
+    </div>
+
+
+    <div className="flex flex-wrap  mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+      <div className="w-full sm:p-4 px-4 mb-6">
+        <h1 className="title-font font-medium text-xl mb-2 text-[#860764]">We Have the Trustable User With Us</h1>
+        <div className="leading-relaxed">We Have Our User All Over The India And They Can User Our Services Safly an Trustly</div>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-[#860764]">1000+</h2>
+        <p className="leading-relaxed">Users</p>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-[#860764]">50+</h2>
+        <p className="leading-relaxed">Citys</p>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-[#860764]">100+</h2>
+        <p className="leading-relaxed">companys</p>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-[#860764]">500+</h2>
+        <p className="leading-relaxed">Products</p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
 
     </>);
 };
