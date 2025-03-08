@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./_components/navbar";
 import Footer from "./_components/footer";
 import Top from "./_components/top"
+import WhatsAppButton from "./_components/whatsapp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
          <Navbar/>
         {children}
         <Footer/>
+        <WhatsAppButton/>
         <Top/>
       </body>
     </html>
