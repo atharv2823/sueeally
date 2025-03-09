@@ -5,7 +5,7 @@ function testimonial() {
 
 
 <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-10 mx-auto">
     <h1 class="text-3xl  title-font text-[#860764] mb-12 text-center font-bold">MISSION & VISION</h1>
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/2 w-full">

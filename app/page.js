@@ -6,7 +6,7 @@ const LandingPage = () => {
 
     {/* Hero Section */}
 
-   <section className="text-gray-600 body-font">
+   {/* <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img className="object-cover object-center rounded" alt="hero" src="./truck.jpg" />
@@ -15,14 +15,31 @@ const LandingPage = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#860764]">Safe. Reliable. On Time. 
         <br className="hidden lg:inline-block" />Every Time.
       </h1>
-      <p className="mb-8 leading-relaxed">"Reliable transport solutions delivering safety, speed, and efficiency. We move your world with care, precision, and on-time service." </p>
-      {/* <div className="flex justify-center">
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-      </div> */}
+      <p className="mb-8 leading-relaxed w-[500px]">"Reliable transport solutions delivering safety, speed, and efficiency. We move your world with care, precision, and on-time service." </p>
+    </div>
+  </div>
+</section> */}
+
+<section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 mt-24 m-24 md:flex-row flex-col items-center">
+    {/* Image Section */}
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-6 md:mb-0">
+      <img className="object-cover object-center rounded max-w-full h-auto" alt="hero" src="./truck.jpg" />
+    </div>
+    
+    {/* Text Content */}
+    <div className="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-12 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-[#860764]">
+        Safe. Reliable. On Time. 
+        <br className="hidden lg:inline-block" />Every Time.
+      </h1>
+      <p className="mb-6 leading-relaxed max-w-md">
+        "Reliable transport solutions delivering safety, speed, and efficiency. We move your world with care, precision, and on-time service."
+      </p>
     </div>
   </div>
 </section>
+
 
 
 
@@ -124,8 +141,8 @@ const LandingPage = () => {
     <section className="text-gray-600 body-font mt-[-150px] lg:ml-60 md:ml-20">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
 
-  <div className="lg:w-[400px] md:w-[100px] w-full rounded-lg overflow-hidden  md:ml-10">
-      <img className="object-cover object-center lg:w-full h-full md:w-1/2 " src="./delivery.jpeg" alt="stats" />
+  <div className="lg:w-[400px] md:w-[100px] w-full  overflow-hidden lg:ml-0  md:ml-56  justify-items-center">
+      <img className="object-cover object-center lg:w-full h-full md:w-1/2  " src="./delivery.jpeg" alt="stats" />
     </div>
 
 
@@ -139,11 +156,11 @@ const LandingPage = () => {
         <p className="leading-relaxed">Users</p>
       </div>
       <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 className="title-font font-medium text-3xl text-[#860764]">50+</h2>
+        <h2 className="title-font font-medium text-3xl text-[#860764]">100+</h2>
         <p className="leading-relaxed">Citys</p>
       </div>
       <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 className="title-font font-medium text-3xl text-[#860764]">100+</h2>
+        <h2 className="title-font font-medium text-3xl text-[#860764]">50+</h2>
         <p className="leading-relaxed">companys</p>
       </div>
       <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">

@@ -1,50 +1,78 @@
-
 "use client";
+import { useState, useEffect } from "react";
 
-import { useEffect, useState } from "react";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-
-function Slider() {
+export default function AutoSlider() {
+  const images = [
+    "./p-1.png", "./p-2.png", "./p-4.png",
+    "./p-5.png", "./p-6.png", "./p-7.png", "./p-9.png"
+  ];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const totalSlides = 7; // Total number of images
+  const [isPaused, setIsPaused] = useState(false);
 
+  // Auto-slide every 3 seconds unless paused
   useEffect(() => {
+    if (isPaused) return;
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-    }, 2000); // Auto-scroll every 2 seconds
+      nextSlide();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [currentIndex, isPaused]);
 
-    return () => clearInterval(interval); // Cleanup interval on unmount
-  }, []);
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
 
   return (
-    <div className="w-full flex justify-center">
-      <Carousel
-        className="w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] mx-auto"
-        opts={{ loop: true }}
-        value={currentIndex}
-        onValueChange={setCurrentIndex}
+    <div className="relative w-full max-w-lg mx-auto overflow-hidden">
+      {/* Slider Container */}
+      <div
+        className="flex transition-transform duration-700 ease-in-out"
+        style={{ transform: `translateX(-${currentIndex * 100}%)`, width: "100%" }}
       >
-        <CarouselContent>
-          <CarouselItem><img src="./p-1.png" alt="Slide 1" className="w-full h-auto rounded-lg" /></CarouselItem>
-          {/* <CarouselItem><img src="./p-2.png" alt="Slide 2" className="w-full h-auto rounded-lg" /></CarouselItem> */}
-          <CarouselItem><img src="./p-3.png" alt="Slide 3" className="w-full h-auto rounded-lg" /></CarouselItem>
-          <CarouselItem><img src="./p-4.png" alt="Slide 4" className="w-full h-auto rounded-lg" /></CarouselItem>
-          <CarouselItem><img src="./p-5.png" alt="Slide 5" className="w-full h-auto rounded-lg" /></CarouselItem>
-          <CarouselItem><img src="./p-6.png" alt="Slide 6" className="w-full h-auto rounded-lg" /></CarouselItem>
-          <CarouselItem><img src="./p-7.png" alt="Slide 7" className="w-full h-auto rounded-lg" /></CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt={`slide-${index}`}
+            className="w-full h-64 object-cover flex-shrink-0"
+          />
+        ))}
+      </div>
+
+      {/* Left Button */}
+      <button
+        onClick={() => { prevSlide(); setIsPaused(true); }}
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full z-10"
+      >
+        &#10094;
+      </button>
+
+      {/* Right Button */}
+      <button
+        onClick={() => { nextSlide(); setIsPaused(true); }}
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full z-10"
+      >
+        &#10095;
+      </button>
+
+      {/* Dots for Navigation */}
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        {images.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => { setCurrentIndex(index); setIsPaused(true); }}
+            className={`w-3 h-3 rounded-full transition ${
+              currentIndex === index ? "bg-gray-800 scale-125" : "bg-gray-400"
+            }`}
+          />
+        ))}
+      </div>
     </div>
   );
 }
-
-export default Slider;
-

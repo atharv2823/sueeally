@@ -120,7 +120,7 @@ function page() {
               <button
                 type="submit"
                 disabled={loading}
-                className="text-white bg-[#860764] border-0 py-2 px-6 focus:outline-none hover:bg-[#860764] rounded text-lg w-96 ml-6"
+                className="text-white bg-[#860764] border-0 py-2 px-6 focus:outline-none hover:bg-[#860764] rounded text-lg lg:w-96 md:w-1/2 lg:ml-6 md:ml-0"
               >
                 {loading ? "Sending..." : "Send"}
               </button>
