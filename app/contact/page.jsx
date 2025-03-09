@@ -54,7 +54,7 @@ function page() {
             marginWidth={0}
             title="map"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=SueeAlly+Private+Limited,@21.1107399,79.1019806&ie=UTF8&t=&z=18&iwloc=B&output=embed"
+            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=SueeAlly+Private+Limited,@21.1110109,79.1015343&ie=UTF8&t=&z=18&iwloc=B&output=embed"
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
           />
         </div>

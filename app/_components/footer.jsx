@@ -45,7 +45,7 @@ export default function Footer() {
             <a href="#" className="hover:text-blue-400">📘 Facebook</a>
             <a href="#" className="hover:text-blue-400">🐦 Twitter</a>
             <a href="#" className="hover:text-pink-400">📸 Instagram</a>
-            <a href="#" className="hover:text-blue-600">💼 LinkedIn</a>
+            <a href="https://www.linkedin.com/in/sandip-hatwar-96b539180/?originalSubdomain=in" className="hover:text-blue-600">💼 LinkedIn</a>
           </div>
   
           {/* Copyright */}
