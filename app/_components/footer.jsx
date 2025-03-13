@@ -1,4 +1,10 @@
+"use client"
+
 export default function Footer() {
+
+  const handleSendEmail = () => {
+    window.location.href = "mailto:atharvneware28@gmail.com";
+  };
     return (
       <footer className="bg-[#860764] text-white py-8">
         <div className="container mx-auto px-6">
@@ -12,7 +18,10 @@ export default function Footer() {
               <a href="https://maps.app.goo.gl/ov5a22MxNPLFuGpf7" className="my-8"> 📍 Click To Open Map</a>
                 
               <p className="mt-2 text-white">📞 (+91) 9823457956</p>
-              <p className="mt-2 text-white">📧 sueeally@gmail.com</p>
+              <p className="mt-2 text-white"
+               onClick={handleSendEmail}>
+                📧 sueeally@gmail.com
+                </p>
             </div>
   
             {/* Services */}
