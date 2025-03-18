@@ -3,9 +3,10 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "9130895209"; // Replace with your WhatsApp number
+  const phoneNumber = "8585980880"; // Replace with your WhatsApp number
 
-  return (
+  return (<>
+      <p>Chat for Instant QUOTE</p>
     <a
       href={`https://wa.me/${phoneNumber}`}
       target="_blank"
@@ -14,7 +15,7 @@ const WhatsAppButton = () => {
     >
       <FaWhatsapp size={30} />
     </a>
-  );
+    </>);
 };
 
 export default WhatsAppButton;

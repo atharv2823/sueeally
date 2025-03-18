@@ -20,82 +20,86 @@ function page() {
             </p>
           </div>
 
-          <div className="flex justify-center mb-10">
-            <div>
-              <h1 className="text-2xl font-bold me-2 text-[#860764]">
-                We Can Transport
-              </h1>
-            </div>
+          <div className="flex flex-col sm:flex-row items-center justify-center mb-10 text-center sm:text-left">
+            <h1 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-0 sm:me-2 text-[#860764]">
+              We Can Transport
+            </h1>
 
-            <div>
-              <RotatingText
-                texts={[
-                  "Heavy Machines",
-                  "Iron Poles",
-                  "Industrial Load ",
-                  "Any Thing You Want!",
-                ]}
-                mainClassName="px-2 sm:px-2 md:px-3 bg-[#860764] text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
-                staggerFrom={"last"}
-                initial={{ y: "100%" }}
-                animate={{ y: 0 }}
-                exit={{ y: "-120%" }}
-                staggerDuration={0.025}
-                splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
-                transition={{ type: "spring", damping: 30, stiffness: 400 }}
-                rotationInterval={2000}
-              />
-            </div>
+            <RotatingText
+              texts={[
+                "HEAVY STEEL STRUCTURE",
+                "SOLAR PUMP",
+                "STEEL RAW MATERIAL",
+                "COILS",
+                "HEAVY MACHINERY",
+                "PEB STRUCTURE",
+                "CNG CASCADE",
+                "INDUSTRIAL IMPORT MATERIALS",
+                "WIRES",
+                "CRANES",
+                "Any Thing You Want!",
+              ]}
+              mainClassName="px-2 sm:px-3 md:px-4 bg-[#860764] text-white overflow-hidden py-1 sm:py-2 md:py-2 font-bold justify-center rounded-lg"
+              staggerFrom={"last"}
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              exit={{ y: "-120%" }}
+              staggerDuration={0.025}
+              splitLevelClassName="overflow-hidden pb-1 sm:pb-1.5 md:pb-2"
+              transition={{ type: "spring", damping: 30, stiffness: 400 }}
+              rotationInterval={2000}
+            />
           </div>
 
           <section className="text-gray-600 body-font">
-  <div className="container px-5 py-10 mx-auto">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {[
-        {
-          title: "Project Logistics",
-          subtitle: "PAN India",
-          description: "We Provide All India Service",
-          image: "./s-1.jpeg",
-        },
-        {
-          title: "ODC, SODC, OWC",
-          subtitle: "Specialist",
-          description: "Best Service In All Kind",
-          image: "./s-2.webp",
-        },
-        {
-          title: "Part Load Services",
-          subtitle: "PAN India",
-          description: "All Type Of Load",
-          image: "./s-4.jpg",
-        },
-        {
-          title: "Road Transportation",
-          subtitle: "PAN India",
-          description: "Trailers, Taurus, LPT, JCB, MXL",
-          image: "./s-3.jpg",
-        },
-      ].map((item, index) => (
-        <div key={index} className="p-4">
-          <div className="h-full flex flex-col sm:flex-row items-center sm:items-start border-2 border-[#860764] rounded-lg px-4 py-4">
-            <img
-              alt={item.title}
-              className="flex-shrink-0 rounded-lg w-48 h-48 object-contain mb-4 sm:mb-0"
-              src={item.image}
-            />
-            <div className="flex-grow sm:pl-6 text-center sm:text-left">
-              <h2 className="title-font font-medium text-lg text-gray-900">{item.title}</h2>
-              <h3 className="text-gray-500 mb-3">{item.subtitle}</h3>
-              <p className="mb-4">{item.description}</p>
+            <div className="container px-5 py-10 mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {[
+                  {
+                    title: "Project Logistics",
+                    subtitle: "PAN India",
+                    description: "We provide logistics support that includes heavy-lift and out-of-gauge cargo moves for capital projects, plants and machinery, equipments for oil & gas plants etc.",
+                    image: "./p-10.jpg",
+                  },
+                  {
+                    title: "ODC, SODC, OWC",
+                    subtitle: "Specialist",
+                    description: "SueeAlly Transport Specialists are trained, experienced professionals with years of enforcement and corrections experience.",
+                    image: "./s-2.webp",
+                  },
+                  {
+                    title: "Part Load Services",
+                    subtitle: "PAN India",
+                    description: "SueeAlly's cost-effective Part Load Services recently started from Nagpur to PAN India.",
+                    image: "./p-14.jpg",
+                  },
+                  {
+                    title: "Road Transportation (Trailers, Taurus, LPT, JCB, SXL, MXL, etc)",
+                    subtitle: "PAN India",
+                    description: "We have served every transportation need of our clients with professionalism, promptness, customized and excellent services with ease.  ",
+                    image: "./p-16.jpg",
+                  },
+                ].map((item, index) => (
+                  <div key={index} className="p-4">
+                    <div className="h-full flex flex-col sm:flex-row items-center sm:items-start border-2 border-[#860764] rounded-lg px-4 py-4">
+                      <img
+                        alt={item.title}
+                        className="flex-shrink-0 rounded-lg w-48 h-48 object-contain mb-4 sm:mb-0"
+                        src={item.image}
+                      />
+                      <div className="flex-grow sm:pl-6 text-center sm:text-left">
+                        <h2 className="title-font font-medium text-lg text-gray-900">
+                          {item.title}
+                        </h2>
+                        <h3 className="text-gray-500 mb-3">{item.subtitle}</h3>
+                        <p className="mb-4">{item.description}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
-
+          </section>
         </div>
       </section>
     </>

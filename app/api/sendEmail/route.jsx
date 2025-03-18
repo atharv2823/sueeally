@@ -68,8 +68,8 @@ export async function POST(req) {
     });
 
     let mailOptions = {
-      from, // User input
-      to: "atharvneware28@gmail.com", // Hardcoded recipient
+      from, // User's entered email
+      to: "atharvneware28@gmail.com", // Owner's email (who receives the mail)
       subject,
       text,
     };

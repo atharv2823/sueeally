@@ -36,10 +36,10 @@
 
 export default function TransportTimeline() {
     const timelineData = [
-      { year: "2018", title: "Company Founded", desc: "Started with a vision to revolutionize transport services.", icon: "🚛" },
-      { year: "2019", title: "Expanded Fleet", desc: "Added more vehicles to meet growing demand.", icon: "🚚" },
-      { year: "2021", title: "Nationwide Coverage", desc: "Expanded operations across multiple states.", icon: "🗺️" },
-      { year: "2023", title: "Smart Tracking System", desc: "Implemented real-time tracking for better efficiency.", icon: "📡" },
+      { year: "2021", title: "Established in 2021", desc: "we have grown into a trusted name in the transport industry.", icon: "🚛" },
+      { year: "2022", title: "Expanded Fleet", desc: " Company Get Certified DIPP Start up.", icon: "🚚" },
+      { year: "2023", title: "Nationwide Coverage", desc: "Expanded Business over PAN INDIA .", icon: "🗺️" },
+      { year: "2024", title: "Financial Growth", desc: "Funded By Aban Technology.", icon: "📡" },
       { year: "2025", title: "Green Transport", desc: "Introduced electric vehicles to reduce carbon footprint.", icon: "♻️" }
     ];
   

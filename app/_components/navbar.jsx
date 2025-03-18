@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="./bg-logo.jpg" className="h-8" alt="SueellAlly Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">SueellAlly</span>
+          <span className="self-center text-2xl font-bold whitespace-nowrap text-white dark:text-white">SueeAlly</span>
         </a>
         <div className="flex md:order-2">
           <button
