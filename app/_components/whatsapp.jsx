@@ -16,7 +16,7 @@ const WhatsAppButton = () => {
       >
         <FaWhatsapp size={30} />
       </a>
-      <p className="fixed bottom-24 right-5 bg-white text-green-600 px-3 py-1 rounded-lg shadow-md text-sm font-semibold">
+      <p className="fixed bottom-24 right-5 bg-green-500 text-white px-3 py-1 rounded-lg shadow-md text-sm font-semibold">
         Chat for Instant QUOTE
       </p>
     </>
