@@ -175,6 +175,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Testimonial from "../_components/testimonial";
+import Founder from "../_components/founder";
 
 function AboutPage() {
   // Animation variants
@@ -239,7 +240,7 @@ function AboutPage() {
       </motion.h1>
 
       {/* Certificate Section */}
-      <div ref={certificateRef} className="flex flex-col items-center mb-16">
+      <div ref={certificateRef} className="flex flex-col items-center mb-10">
         <motion.div
           className="relative"
           initial="hidden"
@@ -271,7 +272,7 @@ function AboutPage() {
       </div>
 
       {/* Company Information */}
-      <div ref={companyInfoRef} className="mb-16">
+      <div ref={companyInfoRef} className="mb-8 ">
         <motion.div
           initial="hidden"
           animate={companyInfoInView ? "visible" : "hidden"}
@@ -306,7 +307,7 @@ function AboutPage() {
       {/* Company Description */}
       <motion.div
         ref={descriptionRef}
-        className="p-6 mb-16 bg-gray-50 rounded-lg shadow-md"
+        className="p-6 mb-10 bg-gray-50 rounded-lg shadow-md"
         initial="hidden"
         animate={descriptionInView ? "visible" : "hidden"}
         variants={fadeIn}
@@ -349,6 +350,10 @@ function AboutPage() {
           the increasing requirements of our customers.
         </motion.p>
       </motion.div>
+
+      <div>
+        <Founder />
+      </div>
 
       {/* Why Choose Us */}
       <motion.div
@@ -436,7 +441,7 @@ function AboutPage() {
               {[
                 {
                   name: "Tata Project Ltd",
-                  logo: "https://pimwp.s3-accelerate.amazonaws.com/2023/12/Untitled_design_-_2023-12-20T184347.643-removebg-preview.png",
+                  logo: "https://www.thestatesman.com/wp-content/uploads/2021/08/tata.jpg",
                 },
                 {
                   name: "L&T",
