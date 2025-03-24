@@ -34,7 +34,7 @@ export default function TransportTimeline() {
     ];
   
     return (
-      <div className="py-12 bg-gray-100 flex justify-center">
+      <div className=" bg-gray-100 flex justify-center">
         <div className="w-full md:w-2/3">
           {/* <h1 className="text-center text-4xl font-bold text-[#860764] mb-10">Our Journey</h1> */}
           <div className="container mx-auto px-6 relative">

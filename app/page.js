@@ -239,7 +239,7 @@ const LandingPage = () => {
 
       {/* Stats Section */}
       <motion.section
-        className="text-gray-600 body-font py-16 bg-gray-50"
+        className="text-gray-600 body-font  bg-gray-50"
         initial="hidden"
         animate={isVisible.stats ? "visible" : "hidden"}
         variants={fadeIn}

@@ -92,6 +92,13 @@ function Page() {
                     subtitle: "PAN India",
                     description:
                       "Comprehensive transport services including trailers, Taurus, JCB, and more.",
+                    image: "./p-11.jpg",
+                  },
+                  {
+                    title: "Crane Rental",
+                    subtitle: "PAN India",
+                    description:
+                      "We have truck-mounted and all-terrain telescopic tyre-mounted cranes ranging from 20 MT to 350 MT in all configurations including main boom, fix jib, runner, luffing and derrick attachments.",
                     image: "./p-16.jpg",
                   },
                 ].map((item, index) => (

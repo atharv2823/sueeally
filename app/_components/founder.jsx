@@ -103,8 +103,8 @@ function founder() {
             />
 
             <motion.p className="text-gray-700 mb-6">
-              With over 15 years of experience in logistics and supply chain
-              management, Rajesh Kumar founded SueeAlly Private Limited in 2021
+              With over 19 years of experience in logistics and supply chain
+              management, Sandip Hatwar founded SueeAlly Private Limited in 2021
               with a vision to revolutionize the logistics industry in India.
               His expertise in project logistics and commitment to customer
               satisfaction has driven the company's rapid growth and established
@@ -202,7 +202,7 @@ function founder() {
           transition={{ delay: 0.7 }}
         >
           {[
-            { label: "Years in Industry", value: "15+" },
+            { label: "Years in Industry", value: "19+" },
             { label: "Projects Delivered", value: "500+" },
             { label: "Team Size", value: "50+" },
           ].map((stat, index) => (
