@@ -481,6 +481,14 @@ function AboutPage() {
                   name: "ISB Infrastructure",
                   logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe4YhXtDh40hJQJm301V-dj6Y6cEtFLv9HMS4fc9xgewPPjPZ71jMOU09OUmxVGuzDpjg&usqp=CAU",
                 },
+                {
+                  name: "Luk plastcon",
+                  logo: "https://lukplastcon.com/wp-content/uploads/2024/01/cropped-WhatsApp_Image_2024-01-15_at_5.13.24_AM-removebg-preview.png",
+                },
+                {
+                  name: "DUROPLY industries",
+                  logo: "https://images.jdmagicbox.com/comp/hyderabad/p7/040pxx40.xx40.210307232516.k7p7/catalogue/duroply-industries-limited-secunderabad-city-secunderabad-plywood-dealers-k9gdxu2f2b.jpg",
+                },
               ].map((client, index) => (
                 <motion.div
                   key={index}
