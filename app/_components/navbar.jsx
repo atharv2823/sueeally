@@ -12,15 +12,16 @@ export default function Navbar() {
   return (
     <nav className="bg-[#860764] dark:bg-gray-900 fixed w-full z-50 top-0 start-0 shadow-md transition-all">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-       <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="./bg-logo.jpg"
-            className="h-10 rounded-full shadow-lg"
+            className="h-10 "
             alt="SueeAlly Logo"
           />
-          <span className="self-center text-2xl font-bold whitespace-nowrap text-white dark:text-white hover:text-gray-300 transition-all">
-            SueeAlly
-          </span>
+          <img
+            src="./sueeally.jpg"
+            className="h-10 "
+            alt="SueeAlly Logo"/>
         </a>
         <div className="flex md:order-2">
           <button
@@ -46,7 +47,7 @@ export default function Navbar() {
               { name: "Contact", path: "/contact" },
             ].map((item, index) => (
               <li key={index}>
-               <a
+                <a
                   href={item.path}
                   className={`block py-2 px-4 rounded-sm md:p-2 transition-all duration-200 ${
                     pathname === item.path

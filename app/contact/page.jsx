@@ -46,18 +46,26 @@ function page() {
 
   return (
     <>
-      <section className="text-gray-600 body-font relative">
-        <div className="absolute inset-0 bg-gray-300">
+      <section className="text-gray-600 body-font relative min-h-screen">
+        <div className="absolute inset-0 bg-gray-300 h-[750px]">
           <iframe
             width="100%"
             height="100%"
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
-            title="map"
+            title="Our Presence"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=SueeAlly+Private+Limited,@21.1110109,79.1015343&ie=UTF8&t=&z=18&iwloc=B&output=embed"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7602557.50520459!2d75.71565725!3d20.98699345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sindia!5e0!3m2!1sen!2sin!4v1683660761731!5m2!1sen!2sin&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:N|21.1458,79.0882&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:M|19.0760,72.8777&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:P|18.5204,73.8567&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:R|21.2514,81.6296&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:C|13.0827,80.2707&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:B|12.9716,77.5946&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:K|22.5726,88.3639&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:D|28.6139,77.2090&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|label:J|23.1815,79.9864"
+            style={{
+              filter: "grayscale(1) contrast(1.2) opacity(0.4)",
+              width: "100%",
+              height: "100%",
+              border: "0",
+            }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
 
