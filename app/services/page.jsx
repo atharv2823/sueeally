@@ -81,13 +81,6 @@ function Page() {
                     image: "./s-2.webp",
                   },
                   {
-                    title: "Part Load Services",
-                    subtitle: "PAN India",
-                    description:
-                      "Affordable part-load transport solutions from Nagpur to PAN India.",
-                    image: "./p-14.jpg",
-                  },
-                  {
                     title: "Road Transportation",
                     subtitle: "PAN India",
                     description:
@@ -98,8 +91,8 @@ function Page() {
                     title: "Crane Rental",
                     subtitle: "PAN India",
                     description:
-                      "We have truck-mounted and all-terrain telescopic tyre-mounted cranes ranging from 20 MT to 350 MT in all configurations including main boom, fix jib, runner, luffing and derrick attachments.",
-                    image: "./p-16.jpg",
+                      "We have truck-mounted and all-terrain telescopic Boom lifter,Farana hydra,Tyre mounted cranes ranging from 20 MT to 350 MT in all configurations including main boom, fix jib, runner, luffing and derrick attachments.",
+                    image: "./crane.jpg",
                   },
                 ].map((item, index) => (
                   <motion.div

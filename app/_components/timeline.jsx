@@ -10,7 +10,7 @@ export default function TransportTimeline() {
       {
         year: "2022",
         title: "Expanded Fleet",
-        desc: " Company Get Certified DIPP Start up.",
+        desc: " Goverment Recognised",
         icon: "🚚",
       },
       {

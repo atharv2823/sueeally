@@ -112,7 +112,7 @@ const LandingPage = () => {
             <img
               className="object-cover object-center rounded shadow-xl max-w-full h-auto"
               alt="hero"
-              src="./truck.jpg"
+              src="./delivery.png"
             />
           </motion.div>
 
@@ -144,25 +144,15 @@ const LandingPage = () => {
               Reliable & Efficient Transport Services
               <br />
               Welcome to <strong>SueeAlly Private Limited</strong>, your trusted
-              partner in transportation. We provide safe, timely, and
+              partner in transportation. We provide safe, timely and
               cost-effective transport solutions tailored to your needs.
               <br />
               <br />
-              <span className="italic">
-                Ride with confidence. Ship with ease.
-              </span>
+              <strong className="italic">
+                Transportation Benchmark
+              </strong>
             </motion.p>
 
-            {/* <motion.button
-              className="inline-flex text-white bg-[#860764] border-0 py-2 px-6 focus:outline-none hover:bg-[#6b0450] rounded-lg text-lg shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.7, duration: 0.5 }}
-            >
-              Contact Us Today
-            </motion.button> */}
           </motion.div>
         </div>
 
@@ -215,7 +205,7 @@ const LandingPage = () => {
           className="text-center text-3xl text-white font-bold mb-10 bg-[#860764] py-3 shadow-md"
           variants={fadeInUp}
         >
-          Our Transportation Fleet
+          Our Transportations
         </motion.h1>
         <Slider />
       </motion.div>
@@ -252,7 +242,7 @@ const LandingPage = () => {
           >
             <img
               className="object-cover object-center w-3/4 md:w-full max-w-md rounded-lg "
-              src="./delivery.png"
+              src="./truck.jpg"
               alt="stats"
             />
           </motion.div>
@@ -281,7 +271,6 @@ const LandingPage = () => {
           </motion.div>
         </div>
       </motion.section>
-
     </>
   );
 };
