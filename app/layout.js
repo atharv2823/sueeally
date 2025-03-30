@@ -18,19 +18,29 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Sueeally Pvt Limited",
   description: "Sueeally Private Limited",
+  icons: "./logo.png", // Add logo as favicon
+  openGraph: {
+    title: "Sueeally Pvt Limited",
+    description: "Sueeally Private Limited",
+    images: ["./logo.png"], // Add Open Graph image
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="./logo.png" sizes="any" />
+        <link rel="apple-touch-icon" href="./logo.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
-        <WhatsAppButton/>
-        <Top/>
+        <Footer />
+        <WhatsAppButton />
+        <Top />
       </body>
     </html>
   );
