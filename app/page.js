@@ -112,7 +112,7 @@ const LandingPage = () => {
             <img
               className="object-cover object-center rounded shadow-xl max-w-full h-auto"
               alt="hero"
-              src="./delivery.png"
+              src="./truck.jpg"
             />
           </motion.div>
 
@@ -242,7 +242,7 @@ const LandingPage = () => {
           >
             <img
               className="object-cover object-center w-3/4 md:w-full max-w-md rounded-lg "
-              src="./truck.jpg"
+              src="./delivery.png"
               alt="stats"
             />
           </motion.div>
