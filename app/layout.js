@@ -19,14 +19,14 @@ export const metadata = {
   title: "Sueeally Pvt Limited",
   description: "Sueeally Private Limited",
   icons: {
-    icon: [{ url: "/logo.png", type: "image/png" }], // Favicon icon
-    shortcut: "/logo.png", // Shortcut icon
-    apple: "/logo.png", // Apple Touch Icon
+    icon: [{ url: "/favicon.ico", type: "image/png" }], // Favicon icon
+    shortcut: "/favicon.ico", // Shortcut icon
+    apple: "/favicon.ico", // Apple Touch Icon
   },
   openGraph: {
     title: "Sueeally Pvt Limited",
     description: "Sueeally Private Limited",
-    images: ["/logo.png"], // Open Graph image
+    images: ["/favicon.ico"], // Open Graph image
   },
 };
 
@@ -35,8 +35,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.png" sizes="any" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.ico" sizes="192x192" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
