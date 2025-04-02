@@ -16,16 +16,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Sueeally Pvt Limited",
-  description: "Sueeally Private Limited",
+  title: "SueeAlly",
+  description: "SueeAlly Private Limited",
   icons: {
     icon: [{ url: "/favicon.ico", type: "image/png" }], // Favicon icon
     shortcut: "/favicon.ico", // Shortcut icon
     apple: "/favicon.ico", // Apple Touch Icon
   },
   openGraph: {
-    title: "Sueeally Pvt Limited",
-    description: "Sueeally Private Limited",
+    title: "SueeAlly",
+    description: "SueeAlly Private Limited",
     images: ["/favicon.ico"], // Open Graph image
   },
 };
