@@ -22,7 +22,7 @@ export default function TransportTimeline() {
       {
         year: "2024",
         title: "Financial Growth",
-        desc: "Funded By Aban Technology.",
+        desc: "Funded By ABAN TECHNOLOGIES.",
         icon: "💵",
       },
       {

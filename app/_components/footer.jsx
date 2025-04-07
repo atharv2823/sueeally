@@ -11,10 +11,10 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center md:text-left">
             {/* Company Info */}
             <div className="text-white">
-              <h2 className="text-xl font-semibold">🚛 SueellAlly</h2>
-              <p className="mt-2 text-white">
-                101, West Balaji Nagar, Ulhas Nagar, Rameshwari, Nagpur,
-                Maharashtra 440027
+              <h2 className="text-xl font-semibold">🚛 SueeAlly</h2>
+              <p className="mt-2 text-white mb-2">
+                Office: Flat No.101, Guru Mangal Appt., Balaji Nagar Road,
+                Nagpur Maharashtra - 440027 Contact: 8585980880
               </p>
               <a
                 href="https://maps.app.goo.gl/ov5a22MxNPLFuGpf7"
@@ -36,7 +36,7 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li>✔️ Logistics Solutions (PAN India)</li>
                 <li>✔️ Over Dimensional Cargo (ODC)</li>
-                <li>✔️ Operating working capital (OWC) </li>
+                <li>✔️ Over Waigth Cargo (OWC) </li>
                 <li>✔️ Part Load Services </li>
               </ul>
             </div>

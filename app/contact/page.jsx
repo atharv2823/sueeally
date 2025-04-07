@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function page() {
   const [formData, setFormData] = useState({
-    from: "",
+    from: "sueeally@gmail.com",
     subject: "",
     text: "",
   });
@@ -33,7 +33,7 @@ function page() {
 
       if (response.ok) {
         setMessage("Email sent successfully!");
-        setFormData({ from: "", subject: "", text: "" });
+        setFormData({ from: "sueeally@gmail.com", subject: "", text: "" });
       } else {
         setMessage(data.error || "Failed to send email.");
       }
@@ -86,7 +86,7 @@ function page() {
                   htmlFor="from"
                   className="leading-7 text-sm text-gray-600"
                 >
-                  Your Email
+                  Our Email
                 </label>
                 <input
                   type="email"
@@ -103,7 +103,7 @@ function page() {
                   htmlFor="subject"
                   className="leading-7 text-sm text-gray-600"
                 >
-                  Subject
+                  Enter Your Email
                 </label>
                 <input
                   type="text"
@@ -120,16 +120,17 @@ function page() {
                   htmlFor="text"
                   className="leading-7 text-sm text-gray-600"
                 >
-                  Your Email And Message
+                  Enter Your Message
                 </label>
-                <input
+                <textarea
                   id="text"
                   name="text"
                   value={formData.text}
                   onChange={handleChange}
                   required
-                  className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                />
+                  rows="4"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out"
+                ></textarea>
               </div>
               <button
                 type="submit"
