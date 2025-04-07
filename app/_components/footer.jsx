@@ -12,7 +12,7 @@ export default function Footer() {
             {/* Company Info */}
             <div className="text-white">
               <h2 className="text-xl font-semibold">
-                🚛 SueeAlly private Limited
+                🚛 SueeAlly Private Limited
               </h2>
               <p className="mt-2 text-white mb-2">
                 Office: Flat No.101, Guru Mangal Appt., Balaji Nagar Road,
@@ -94,7 +94,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <div className="text-center mt-6 text-white">
-            © 2025 SueeAlly private Limited . All Rights Reserved.
+            © 2025 SueeAlly Private Limited . All Rights Reserved.
           </div>
         </div>
       </footer>
