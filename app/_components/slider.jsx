@@ -4,7 +4,7 @@
 import { useState, useEffect } from 'react';
 
 const images = [
-  "./p-1.png", "./p-2.png", "./p-4.png", "./p-5.png", "./p-7.png", "./p-9.png", "./p-10.jpg", "./p-11.jpg", "./p-12.jpg", "./p-13.jpg", "./p-14.jpg", "./p-15.jpg", "./p-16.jpg"
+  "./p-1.png", "./p-2.png", "./p-4.png", "./p-5.png", "./p-7.png", "./p-9.png", "./p-10.jpg", "./p-11.jpg", "./p-12.jpg", "./p-13.jpg", "./p-14.jpg", "./p-15.jpg", "./p-16.jpg ","./p-19.jpg"
 ];
 
 export default function MarqueeSlider() {

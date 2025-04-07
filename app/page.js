@@ -179,6 +179,7 @@ const LandingPage = () => {
               "INDUSTRIAL IMPORT MATERIALS",
               "WIRES",
               "CRANES",
+              "FMCG",
               "Any Thing You Want!",
             ]}
             mainClassName="px-4 sm:px-5 md:px-6 bg-[#860764] text-white overflow-hidden py-2 sm:py-3 md:py-3 font-bold justify-center rounded-lg shadow-lg"

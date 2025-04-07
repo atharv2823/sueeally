@@ -11,7 +11,9 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center md:text-left">
             {/* Company Info */}
             <div className="text-white">
-              <h2 className="text-xl font-semibold">🚛 SueeAlly</h2>
+              <h2 className="text-xl font-semibold">
+                🚛 SueeAlly private Limited
+              </h2>
               <p className="mt-2 text-white mb-2">
                 Office: Flat No.101, Guru Mangal Appt., Balaji Nagar Road,
                 Nagpur Maharashtra - 440027 Contact: 8585980880
@@ -36,8 +38,9 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li>✔️ Logistics Solutions (PAN India)</li>
                 <li>✔️ Over Dimensional Cargo (ODC)</li>
-                <li>✔️ Over Waigth Cargo (OWC) </li>
+                <li>✔️ Over Weight Cargo (OWC) </li>
                 <li>✔️ Part Load Services </li>
+                <li>✔️ Crane Rental Services </li>
               </ul>
             </div>
 
@@ -91,7 +94,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <div className="text-center mt-6 text-white">
-            © 2025 SueellAlly Private Limeted . All Rights Reserved.
+            © 2025 SueeAlly private Limited . All Rights Reserved.
           </div>
         </div>
       </footer>
