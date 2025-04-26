@@ -101,7 +101,7 @@ const LandingPage = () => {
         animate={isVisible.hero ? "visible" : "hidden"}
         variants={fadeIn}
       >
-        <div className="container mx-auto flex px-5 pt-32 pb-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 pt-32 pb-4 md:flex-row flex-col items-center">
           {/* Image Section with hover effect */}
           <motion.div
             className="lg:max-w-lg lg:w-full md:w-1/2 w-full md:mb-0 relative"
@@ -110,9 +110,9 @@ const LandingPage = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-[#860764]/30 to-transparent rounded opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
             <img
-              className="object-cover object-center rounded shadow-xl max-w-full h-auto"
+              className="object-cover object-center rounded shadow-sm max-w-full h-auto"
               alt="hero"
-              src="./truck.jpg"
+              src="./hero.png"
             />
           </motion.div>
 

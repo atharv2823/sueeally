@@ -79,7 +79,7 @@ function founder() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1, duration: 0.5 }}
             >
-              <span className="text-[#860764] font-bold text-sm">CEO</span>
+              <span className="text-[#860764] font-bold text-sm">Founder</span>
             </motion.div>
           </motion.div>
 

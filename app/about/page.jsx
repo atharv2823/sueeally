@@ -33,7 +33,7 @@ function AboutPage() {
     visible: { opacity: 1, x: 0 },
   };
 
-  // Reference for scroll animations
+  // Referen for scroll animations
   const certificateRef = useRef(null);
   const companyInfoRef = useRef(null);
   const descriptionRef = useRef(null);
