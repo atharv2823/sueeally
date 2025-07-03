@@ -68,7 +68,7 @@ function founder() {
             transition={{ duration: 0.8 }}
           >
             <motion.img
-              src="https://media.licdn.com/dms/image/v2/D5603AQEydUQcVWnytg/profile-displayphoto-shrink_800_800/B56ZTuMrqmGoAg-/0/1739163092371?e=1747872000&v=beta&t=uM45ghSSRQWrE9uWQAwi-Ckur-ejj5e6O2d_yqds_jk"
+              src="/sandip-hatwar.jpeg"
               alt="Founder"
               className="w-full h-full object-cover rounded-full border-4 border-[#860764] shadow-xl"
               whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
